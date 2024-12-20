@@ -52,7 +52,7 @@
 p {
     font-size: 18px;
     color: #1F4529;
-    margin-bottom: 50px;
+  
     line-height: 1.7;
     font-weight: 400;
     margin-top: 10px;
@@ -71,6 +71,10 @@ p {
     font-size: 16px;
     line-height: 42px;
     font-weight: 600;
+}
+.about p{
+    padding: 15px;
+
 }
 .get-started-button{
     background-color: #62825D;
@@ -91,6 +95,9 @@ p {
     margin-top: 100px;
     background-color: #f2f4f5;
 }
+.contact-us p{
+    
+}
 .leaf-icon{
     display: flex;
 }
@@ -109,6 +116,9 @@ p {
 .footer{
     text-align: center;
     padding: 10px 10px;
+}
+.footer p{
+    margin-bottom: 30px;
 }
 @media screen and (max-width: 768px) {
 
@@ -136,14 +146,17 @@ p {
        display: block;
        margin-left: 0;
     }
-    .contact-us{
-        padding: 0 10px;
+    p{
+        padding: 0 15px;
+        
     }
     .header-content{
         padding: 0;
         margin-right: 0;
     }
+    
 }
+
 
 
 
